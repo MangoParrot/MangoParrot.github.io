@@ -1,0 +1,46 @@
+body {
+    background-color: hsl(218, 24%, 9%);
+    color: rgb(214, 104, 83);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#Header {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 48px;
+    -webkit-text-stroke: 1px;
+}
+
+#MainContent {
+    margin: 5%;
+    font-size: 28px;
+    color: lavender;
+}
+
+Button {
+    height: 70px;
+    width: 140px;
+    color: rgb(214, 104, 83);
+    background-color: rgb(54, 65, 86);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    border-radius: 10px;
+    outline: 10px;
+    outline-color: rgb(214, 104, 83);
+}
+
+button:active {
+    background-color: rgb(33, 45, 64);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
