@@ -17,10 +17,7 @@ body {
     font-size: 28px;
     color: lavender;
 }
-<!-- HTML !-->
-<button class="button-3" role="button">Button 3</button>
 
-/* CSS */
 .button-3 {
   appearance: none;
   background-color: #2ea44f;
