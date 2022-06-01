@@ -1,2 +1,2 @@
 # MangoParrot.github.io
-this is a **very** cool *repo*
+this is a **very** cool *repo* :parrot:
