@@ -1,0 +1,35 @@
+body {
+    color: rgb(105, 131, 201);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    height: 1500px;
+    background-color: #77DD77;
+    background-image:
+      linear-gradient( 
+        #77DD77, rgb(105, 131, 201)
+      );
+}
+
+#demobox {
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px ;
+    border: 1px solid green ;
+  }
+.colorbox {
+      background-color:rgb(123, 237, 196); 
+      Width:100px; 
+      height:100px
+}
+.person1{
+    background-color:rgb(119, 182, 237); 
+    Width:500px; 
+    height:500px;
+    border-radius: 25px;
+    border: 2px solid rgb(224, 155, 139);
+    padding: 20px;
+}
+.person2{
+    background-color:rgb(255, 255, 255); 
+    Width:500px; 
+    height:500px 
+}
