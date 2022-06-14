@@ -49,6 +49,9 @@ class Square extends React.Component {
             {this.renderSquare(7)}
             {this.renderSquare(8)}
           </div>
+          <div classname="JaneSquare">
+            {this.renderSquare(9)}
+          </div>
         </div>
       );
     }
