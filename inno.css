@@ -1,35 +1,51 @@
-body {
-    color: rgb(105, 131, 201);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    height: 4500px;
-    background-color: #77DD77;
-    background-image:
-      linear-gradient( 
-        #77DD77, rgb(105, 131, 201)
-      );
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-#demobox {
-    background-color: rgb(255, 255, 255) ;
-    padding: 10px ;
-    border: 1px solid green ;
-  }
-.colorbox {
-      background-color:rgb(123, 237, 196); 
-      Width:100px; 
-      height:100px
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
 }
-.person1{
-    background-color:rgb(119, 182, 237); 
-    Width:500px; 
-    height:640px;
-    border-radius: 25px;
-    border: 2px solid rgb(224, 155, 139);
-    padding: 20px;
+
+.button-3:hover {
+  background-color: #2c974b;
 }
-.person2{
-    background-color:rgb(255, 255, 255); 
-    Width:500px; 
-    height:500px 
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
